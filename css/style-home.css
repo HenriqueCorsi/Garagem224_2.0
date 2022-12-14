@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Fast";
+    src: url("../fonte//Fastup-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonte/Bebas-Regular.ttf") format("opentype");
+}
+
+body{
+    background-color: rgb(215, 215, 215);
+}
+
+
+header{
+    background-color: black;
+}
+
+.box-header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0px 0px 0px 100px;
+}
+
+nav a{
+    font-family: "Fast";
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(237, 234, 231);
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo-garagem224{
+    width: 23%;
+}
+
+.banner-home{
+    width: 100%;
+    height: 800px;
+}
+
+section > h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-family: "Fast";
+}
+
+section > p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 7px;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box01{
+    margin: 10px 0px 50px 0px;
+}
+
+.servicos{
+    width: 80%;
+    height: 850px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    text-align: center;
+    background-color: rgb(191, 191, 191);
+}
+
+.servicos > picture img{
+    width: 30%;
+    padding: 15px;
+}
+
+.txt01{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: -10px 0px 0px 120px;
+}
+
+.txt02{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: -20px 0px 0px 20px;
+}
+
+.txt03{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+    margin: -20px 180px 0px 0px;
+}
+
+.division{
+    margin-top: 30px;
+}
+
+.txt04{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: -10px 450px 0px 0px;
+}
+
+.txt05{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: -20px 0px 0px 500px;
+}
