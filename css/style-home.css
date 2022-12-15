@@ -11,6 +11,10 @@
   
   a:hover {
     opacity: 0.7;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #23232e;
   }
   
   .logo {
@@ -108,4 +112,23 @@
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
-  
+
+  section > h1{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .box01{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .box01 > p{
+    padding: 10px;
+  }
