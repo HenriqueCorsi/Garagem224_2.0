@@ -24,7 +24,7 @@
   }
 
   .logo-img{
-    width: 40%;
+    width: 45%;
   }
   
   nav {
@@ -33,7 +33,7 @@
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
-    height: 25vh;
+    height: 20vh;
   }
   
   .nav-list {
@@ -44,7 +44,7 @@
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 100px;
-    font-size: 22px;
+    font-size: 25px;
   }
   
   .mobile-menu {
@@ -113,6 +113,10 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
+  .banner{
+    width: 100%;
+  }
+
   section > h1{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     font-size: 30px;
@@ -132,3 +136,123 @@
   .box01 > p{
     padding: 10px;
   }
+
+  .box02{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #353545;
+  }
+
+  .servicos{
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .img-servicos{
+    width: 100%;
+  }
+
+  .desc-servicos{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0px 10px 0px;
+  }
+
+form{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+}
+
+form > legend{
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+label{
+  display: block;
+  padding: 10px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+input{
+  display: block;
+  padding: 5px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+textarea{
+  display: block;
+  padding: 5px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  width: 70%;
+  height: 150px;
+}
+
+.enviar{
+  width: 30%;
+  margin: 30px 0px 0px 0px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #23232e;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #23232e;
+  text-align: center;
+}
+
+footer > img{
+  width: 10%;
+}
+
+footer > p{
+  padding: 10px;
+  color: #fff;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+@media screen and (max-width: 400px){
+  section > h1{
+    width: 100%;
+  }
+  
+  .box01{
+    width: 80%;
+  }
+  
+  form{
+    width: 90%;
+  }
+
+  .enviar{
+    width: 80%;
+  }
+
+  
+}
+
