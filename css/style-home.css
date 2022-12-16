@@ -9,6 +9,7 @@
 
 header {
   background-color: #23232E;
+  width: 100%;
 }
 
 .nav-bar {
@@ -226,12 +227,14 @@ footer > p{
 @media screen and (max-width: 400px){
   .banner{
     height: 200px;
+    width: 100%;
   }
   
   section > h1{
     width: 90%;
     margin: auto;
     margin-top: 20px;
+    font-size: 25px;
   }
   
   .box01{
@@ -239,23 +242,37 @@ footer > p{
     text-align: justify;
   }
 
+  .box01 > p{
+    font-size: 20px;
+  }
+
   .box02{
     width: 95%;
   }
-
+  
   .img-servicos{
     width: 100%;
+  }
+
+  .desc-servicos{
+    font-size: 20px;
   }
   
   form{
     width: 82%;
   }
 
+  label{
+    font-size: 20px;
+  }
+
   input{
     width: 80%;
+    font-size: 20px;
   }
 
   textarea{
+    font-size: 20px;
     width: 80%
   }
 
