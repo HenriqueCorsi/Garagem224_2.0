@@ -237,17 +237,31 @@ footer > p{
   font-size: 20px;
 }
 @media screen and (max-width: 400px){
+  .banner{
+    height: 200px;
+  }
+  
   section > h1{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     margin-top: 20px;
   }
   
   .box01{
-    width: 80%;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .box02{
+    width: 95%;
+  }
+
+  .img-servicos{
+    width: 100%;
   }
   
   form{
-    width: 80%;
+    width: 82%;
   }
 
   input{
@@ -261,6 +275,12 @@ footer > p{
   .enviar{
     width: 100%;
   }
+
+  footer > img{
+    width: 50%;
+  }
+
+  
 
   
 }
