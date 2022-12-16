@@ -239,6 +239,7 @@ footer > p{
 @media screen and (max-width: 400px){
   section > h1{
     width: 100%;
+    margin-top: 20px;
   }
   
   .box01{
@@ -246,11 +247,19 @@ footer > p{
   }
   
   form{
-    width: 90%;
+    width: 80%;
+  }
+
+  input{
+    width: 80%;
+  }
+
+  textarea{
+    width: 80%
   }
 
   .enviar{
-    width: 80%;
+    width: 100%;
   }
 
   
