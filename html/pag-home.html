@@ -9,22 +9,33 @@
     <link rel="stylesheet" href="../css/style-home.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <picture><img class="logo-img" src="../img/logo-garagem224.png" alt=""></picture>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <a href=""><h1>Garagem224</h1></a>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="../icones/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+        </ul>
+    </div>
+  </header>
+      
       <picture>
         <img class="banner" src="../img/banner -original.png" alt="">
       </picture>
