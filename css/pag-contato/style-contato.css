@@ -212,9 +212,17 @@ form{
         margin-top: 50px;
     }
 
+    .box-contato > p{
+      font-size: 20px;
+    }
+
     form{
       width: 80%;
       margin-top: 40px;
+    }
+
+    form > legend{
+      font-size: 25px;
     }
   
     label{
