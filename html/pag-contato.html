@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garagem 224 | Contato</title>
+
+    <link rel="stylesheet" href="../css/pag-contato/style-contato.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="../html/pag-home.html"><h1>Garagem224</h1></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../html/pag-home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="../html/pag-sobre.htm" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="../html/pag-contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../icones/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="../html/pag-home.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="../html/pag-sobre.htm" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="../html/pag-contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+      </header>
+      <main>
+        <section>
+            <div class="box01">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6837574945457!2d-46.4378477!3d-23.5438741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce64270c1294d1%3A0x2ae034970304e856!2sR.%20Gi%C3%A1como%20Perti%2C%20224%20-%20Jardim%20Bonifacio%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008253-080!5e0!3m2!1spt-BR!2sbr!4v1671260984492!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="box02">
+                <div class="box-contato">
+                    <h2>Telefone</h2>
+                    <p>xx x xxxx-xxxx</p>
+                    <h2>Whatsapp</h2>
+                    <p>xx x xxxx-xxxx</p>
+                    <h2>Email</h2>
+                    <p>xxxxxx@xxxxxx.xxx</p>
+                    <h2>Endereço</h2>
+                    <p>Rua Giacomo Perti 224,</p>
+                    <p>Bairro Itaquera</p>
+                </div>
+                <form action="">
+                    <legend>Faça uma cotação</legend>
+                
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" required>
+                
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(xx) x xxxx-xxxx">
+                
+                    <label for="">Email</label>
+                    <input type="email" id="email" placeholder="xxxxx@xxxxx.com">
+                    <label for="veiculo">Veículo</label>
+                    <input type="text" id="veiculo" required>
+                    <label for="msg">Mensagem</label>
+                    <textarea name="" id="msg" cols="70" rows="10"></textarea>
+                    <input class="enviar" type="submit" type="Enviar">
+                  </form>
+            </div>
+        </section>
+      </main>
+      <footer>
+        <img src="../img/img-home/logo-garagem224.png" alt="">
+        <p class="copyright">&copy; Garagem224 - 2021</p>
+     </footer>
+      <script src="../js/mobile-navbar.js"></script>
+</body>
+</html>
