@@ -113,7 +113,7 @@ header {
 
 .box02{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -202,6 +202,8 @@ form{
 
     .box02{
         display: block;
+        margin: auto;
+        width: 100%;
     }
 
     .box-contato{
@@ -211,33 +213,35 @@ form{
     }
 
     form{
-        width: 90%;
-        margin: auto;
-        margin-top: 40px;
-      }
-    
-      label{
-        font-size: 20px;
-      }
-    
-      input{
-        width: 80%;
-        font-size: 20px;
-      }
-    
-      textarea{
-        font-size: 20px;
-        width: 80%
-      }
-    
-      .enviar{
-        width: 100%;
-      }
+      width: 80%;
+      margin-top: 40px;
+    }
+  
+    label{
+      font-size: 20px;
+    }
+  
+    input{
+      width: 80%;
+      font-size: 20px;
+    }
+  
+    textarea{
+      font-size: 20px;
+      width: 80%
+    }
+  
+    .enviar{
+      width: 100%;
+    }
 
-      footer > img{
-        width: 50%;
-      }
+    footer > img{
+      width: 50%;
+    }
+  
     
+    
+  
 
     
 }
