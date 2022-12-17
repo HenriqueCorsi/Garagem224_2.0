@@ -127,7 +127,7 @@ header {
 
   .box02{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    width: 80%;
+    width: 64%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -155,7 +155,7 @@ header {
   }
 
 form{
-  width: 50%;
+  width: 30%;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 70px;
@@ -184,7 +184,7 @@ input{
   padding: 5px;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   font-size: 25px;
-  width: 50%;
+  width: 90%;
   margin-bottom: 30px;
 }
 
@@ -193,7 +193,7 @@ textarea{
   padding: 5px;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   font-size: 20px;
-  width: 70%;
+  width: 90%;
   height: 150px;
 }
 
@@ -249,7 +249,7 @@ footer > p{
   .box02{
     width: 95%;
   }
-  
+
   .img-servicos{
     width: 100%;
   }
@@ -259,7 +259,8 @@ footer > p{
   }
   
   form{
-    width: 82%;
+    width: 80%;
+    margin-top: 40px;
   }
 
   label{
